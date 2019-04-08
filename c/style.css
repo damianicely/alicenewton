@@ -1,0 +1,253 @@
+body {
+	color: #020202;
+	font-family: 'Average';
+	font-size: small;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background: #f0ece3;
+	padding-bottom: 250px; /* for the map */
+	position: relative;
+}
+
+a:link, a:visited {
+	color: #020202;
+	text-decoration: underline;
+}
+a:active, a:hover {
+	color: black;
+	text-decoration: none;
+}
+div {
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+
+p {
+	margin: 20px 0;
+	font-size: 115%;
+	font-family: "Average";
+	line-height: 1.4;
+}
+
+#container {
+	background: #f0ece3;
+	position: relative;
+	padding-top: 1px;
+	background: #f0ece3 url(../i/back5.png) no-repeat;
+}
+#intro{
+	text-align:justify;
+}
+#nav {
+	display: block;
+	position: absolute;
+	top: 260px;
+	left: 0;
+	background: url(file:///C|/Users/D/Documents/MyWebsites/i/grey-90pc.png) left top repeat;
+	width: 140px;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+#nav ul li {
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	float: left;
+	width: 100%;
+}
+
+#nav a {
+	display: block;
+	line-height: 33px;
+	padding: 0 10px;
+	border-bottom: 1px solid #333;
+	text-decoration: none;
+	color: #000000;
+}
+
+#nav a.last {
+	border-bottom: none;
+}
+
+#nav a:hover, #nav a:active {
+	color: #af2227;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	line-height: 1.35;			
+}
+
+h1#title-subline {
+	margin: 85px 0 0 0;
+	font-size: 140%;
+}
+
+h1#title {
+	margin: 30px 0 60px 0;
+	text-indent: -1000px;
+	width: 325px;
+	height: 120px;
+	background: url(file:///C|/Users/D/Documents/MyWebsites/i/blackestate-logo.gif) left top no-repeat;
+}
+h2#spacer {
+	margin: 0 0 150px 0;
+}
+
+h2 {
+	font-size: 260%;
+	margin-top: 80px;
+	padding-top: 20px;
+}
+
+hr {
+	color: #333;
+	background-color: #333;
+	border: 1px solid #333;
+	border-width: 1px 0 0 0;
+}
+
+.drop-cap {
+	float: left;
+	font-size: 100px;
+	line-height: 0.8;
+	padding: 0px 10px 10px 0;
+	color:#af2227;
+}
+
+
+/* NEWS STYLES ADDED 20 JAN 09 */
+img.with-caption {
+	display: block;
+}
+
+.image-caption {
+	display: block;
+	background-color: #000;
+	margin: 0;
+	padding: 0 10px;
+	line-height: 33px;
+}
+
+
+blockquote, .subhead {
+	font-size: 140%;
+	line-height: 1.35;
+	padding: 0px 0;
+	border: 1px solid #333;
+	border-width: 1px 0;
+}
+
+.subhead {
+	padding: 10px 0;
+	font-size: 160%;
+}
+
+.wide-punchout {
+	font-style: italic;
+	border: none;
+	margin: 1em 0 1em -160px;
+	font-size: 200%;
+	color: #999;
+}
+
+.punchout {
+	font-style: italic;
+	border: none;
+	margin: 3em 0 0.5em 0;
+	line-height: 27px;
+	font-size: 160%;
+	color: #999;			
+}
+
+.thinking-right {
+	text-align: right;
+	margin-top: 110px;
+	font-size: 220%;
+	color: #ddd;
+	font-style: normal;
+	line-height: 36px;
+}
+
+img.labelled {
+	display: block;
+}
+
+.caption {
+	display: block;
+	position: absolute;
+	margin: -45px 0 20px 0;
+	background: url(file:///C|/Users/D/Documents/MyWebsites/i/black-90pc.png) left top repeat;
+	padding: 5px 15px 5px 30px;
+	font-size: 140%;
+	color: #dfdfdf;
+}
+
+.small {
+	font-size: 100%;
+}
+
+textarea {
+	width: 240px;
+	padding: 5px 10px;
+	color: #fff;
+	background-color: #000;
+	border: 1px solid #666;
+	height: 5em;
+}
+
+dl {
+	font-size: 120%;
+}
+
+dt {
+	float: left;
+	width: 60px;
+}
+
+dd {
+	margin-left: 62px;
+	color: #800;
+}
+
+ul.flat {
+	list-style-type: none;
+	margin-top: 0;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.flat li {
+	margin: 3px 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.expanded .hidden {
+	display: block;
+}
+
+.grid_2point25 {
+    width: 160px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#icon {
+	vertical-align:middle;
+	margin-right: 10px;
+}
